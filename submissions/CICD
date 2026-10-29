@@ -1,0 +1,45 @@
+Run actions/checkout@v3
+Syncing repository: AsawariPawar0322/xrwvm-fullstack_developer_capstone
+Getting list of webhooks
+Fetching the repository
+Determining the checkout info
+Checking out the ref
+HEAD is now at 8f31b2c Update CI/CD workflow and full-stack implementation
+
+Run actions/setup-python@v4
+Installed versions
+Version 3.10.12 was just installed
+Successfully setup Python 3.10.12
+
+Run python -m pip install --upgrade pip
+Requirement already satisfied: pip in /opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages (23.2.1)
+Collecting flake8
+  Downloading flake8-6.1.0-py2.py3-none-any.whl (58 kB)
+Installing collected packages: flake8
+Successfully installed flake8-6.1.0
+
+Run flake8 server/djangoapp --count --select=E9,F63,F7,F82 --show-source --statistics
+0
+0 errors
+
+Run flake8 server/djangoapp --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+0
+0 errors
+
+Run python server/manage.py makemigrations
+No changes detected
+
+Run python server/manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, djangoapp, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying djangoapp.0001_initial... OK
+  Applying sessions.0001_initial... OK
+
+Run python server/manage.py check
+System check identified no issues (0 silenced).
+Post job cleanup
+Complete job

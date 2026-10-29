@@ -1,0 +1,124 @@
+curl -X GET http://localhost:3030/fetchDealers
+
+[
+  {
+    "id": 1,
+    "city": "El Paso",
+    "state": "Texas",
+    "st": "TX",
+    "address": "3 Nova Court",
+    "zip": "88563",
+    "lat": 31.6948,
+    "long": -106.3,
+    "short_name": "Holdlamis",
+    "full_name": "Holdlamis Car Dealership"
+  },
+  {
+    "id": 2,
+    "city": "Minneapolis",
+    "state": "Minnesota",
+    "st": "MN",
+    "address": "6337 Butternut Crossing",
+    "zip": "55402",
+    "lat": 44.9762,
+    "long": -93.2759,
+    "short_name": "Temp",
+    "full_name": "Temp Car Dealership"
+  },
+  {
+    "id": 3,
+    "city": "Birmingham",
+    "state": "Alabama",
+    "st": "AL",
+    "address": "9477 Twin Pines Center",
+    "zip": "35285",
+    "lat": 33.5446,
+    "long": -86.9292,
+    "short_name": "Sub-Ex",
+    "full_name": "Sub-Ex Car Dealership"
+  },
+  {
+    "id": 4,
+    "city": "Dallas",
+    "state": "Texas",
+    "st": "TX",
+    "address": "85800 Eastwood Terrace",
+    "zip": "75241",
+    "lat": 32.6734,
+    "long": -96.7562,
+    "short_name": "Solarbreeze",
+    "full_name": "Solarbreeze Car Dealership"
+  },
+  {
+    "id": 5,
+    "city": "Baltimore",
+    "state": "Maryland",
+    "st": "MD",
+    "address": "848 Jay Park",
+    "zip": "21275",
+    "lat": 39.2847,
+    "long": -76.6205,
+    "short_name": "Otcom",
+    "full_name": "Otcom Car Dealership"
+  },
+  {
+    "id": 6,
+    "city": "Wilkes Barre",
+    "state": "Pennsylvania",
+    "st": "PA",
+    "address": "34641 American Drive",
+    "zip": "18768",
+    "lat": 41.2722,
+    "long": -75.8801,
+    "short_name": "Sub-Ex",
+    "full_name": "Sub-Ex Car Dealership"
+  },
+  {
+    "id": 7,
+    "city": "Pueblo",
+    "state": "Colorado",
+    "st": "CO",
+    "address": "944 Artisan Drive",
+    "zip": "81005",
+    "lat": 38.2386,
+    "long": -104.654,
+    "short_name": "Redhold",
+    "full_name": "Redhold Car Dealership"
+  },
+  {
+    "id": 8,
+    "city": "Topeka",
+    "state": "Kansas",
+    "st": "KS",
+    "address": "288 Larry Place",
+    "zip": "66642",
+    "lat": 39.0429,
+    "long": -95.7697,
+    "short_name": "Bytecard",
+    "full_name": "Bytecard Car Dealership"
+  },
+  {
+    "id": 9,
+    "city": "Dallas",
+    "state": "Texas",
+    "st": "TX",
+    "address": "252 Parkside Crossing",
+    "zip": "75226",
+    "lat": 32.7887,
+    "long": -96.7676,
+    "short_name": "biodex",
+    "full_name": "Biodex Car Dealership"
+  },
+  {
+    "id": 10,
+    "city": "Washington",
+    "state": "District of Columbia",
+    "st": "DC",
+    "address": "358 Stephen Road",
+    "zip": "20005",
+    "lat": 38.903,
+    "long": -77.034,
+    "short_name": "Zaam-Dox",
+    "full_name": "Zaam-Dox Car Dealership"
+  }
+]

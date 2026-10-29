@@ -1,0 +1,13 @@
+python3 manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2026 - 16:30:00
+Django version 3.2.5, using settings 'djangoproj.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[29/Oct/2026 16:30:15] "GET / HTTP/1.1" 200 2743
+[29/Oct/2026 16:30:20] "GET /static/bootstrap.min.css HTTP/1.1" 200 155806
+[29/Oct/2026 16:30:20] "GET /static/style.css HTTP/1.1" 200 2044
+[29/Oct/2026 16:30:21] "GET /static/car_dealership.jpg HTTP/1.1" 200 263696
